@@ -358,6 +358,7 @@
 "Assets/Class 2th/Scripts/Creature.cs"
 "Assets/Class 2th/Scripts/Stat.cs"
 "Assets/Class 3th/Scripts/State.cs"
+"Assets/Class 5th/Scripts/Ability.cs"
 -langversion:9.0
 /deterministic
 /optimize+
