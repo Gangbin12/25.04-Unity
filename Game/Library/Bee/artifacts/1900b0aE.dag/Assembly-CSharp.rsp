@@ -360,6 +360,7 @@
 "Assets/Class 3th/Scripts/State.cs"
 "Assets/Class 5th/Scripts/Ability.cs"
 "Assets/Class 7th/Scripts/ButtonManager.cs"
+"Assets/Class 7th/Scripts/Selectable.cs"
 -langversion:9.0
 /deterministic
 /optimize+
