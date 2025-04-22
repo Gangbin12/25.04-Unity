@@ -361,6 +361,7 @@
 "Assets/Class 5th/Scripts/Ability.cs"
 "Assets/Class 7th/Scripts/ButtonManager.cs"
 "Assets/Class 7th/Scripts/Selectable.cs"
+"Assets/Class 8th/Scripts/Movement.cs"
 -langversion:9.0
 /deterministic
 /optimize+
