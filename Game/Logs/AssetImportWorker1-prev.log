@@ -15,7 +15,7 @@ C:/Users/tonuy/Desktop/25.04-Unity-main/Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55028
+60525
 Successfully changed project path to: C:/Users/tonuy/Desktop/25.04-Unity-main/Game
 C:/Users/tonuy/Desktop/25.04-Unity-main/Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/tonuy/Desktop/25.04-Unity-main/Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23620] Host "[IP] 192.168.35.22 [Port] 0 [Flags] 2 [Guid] 2109518159 [EditorId] 2109518159 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8150E4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6028] Host "[IP] 192.168.35.22 [Port] 0 [Flags] 2 [Guid] 753822717 [EditorId] 753822717 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8150E4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23620] Host "[IP] 192.168.35.22 [Port] 0 [Flags] 2 [Guid] 2109518159 [EditorId] 2109518159 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8150E4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6028] Host "[IP] 192.168.35.22 [Port] 0 [Flags] 2 [Guid] 753822717 [EditorId] 753822717 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K8150E4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
-Refreshing native plugins compatible for Editor in 25.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 32.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.042437 seconds.
-- Loaded All Assemblies, in  0.619 seconds
+Registered in 0.014066 seconds.
+- Loaded All Assemblies, in  0.605 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.500 seconds
-Domain Reload Profiling: 1119ms
-	BeginReloadAssembly (224ms)
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 1327ms
+	BeginReloadAssembly (274ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (114ms)
-	LoadAllAssembliesAndSetupDomain (215ms)
-		LoadAssemblies (220ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (260ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (211ms)
-				TypeCache.ScanAssembly (190ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (503ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (158ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (726ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (420ms)
+		SetupLoadedEditorAssemblies (626ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (9ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (254ms)
-			ProcessInitializeOnLoadMethodAttributes (141ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,278 +115,52 @@ Domain Reload Profiling: 1119ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.239 seconds
-Refreshing native plugins compatible for Editor in 6.64 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.119 seconds
+Refreshing native plugins compatible for Editor in 5.40 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.423 seconds
-Domain Reload Profiling: 2660ms
-	BeginReloadAssembly (211ms)
+- Finished resetting the current domain, in  1.144 seconds
+Domain Reload Profiling: 2253ms
+	BeginReloadAssembly (339ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (884ms)
-		LoadAssemblies (754ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (576ms)
+		LoadAssemblies (553ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (253ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (199ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1427ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (886ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (122ms)
-			ProcessInitializeOnLoadAttributes (652ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (37ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (56ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 8.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3139 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (57.2 KB). Loaded Objects now: 3602.
-Memory consumption went from 127.6 MB to 127.5 MB.
-Total: 4.274900 ms (FindLiveObjects: 0.598000 ms CreateObjectMapping: 0.301100 ms MarkObjects: 3.245300 ms  DeleteObjects: 0.129400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1038859.381346 seconds.
-  path: Assets/Class 10th/Scripts
-  artifactKey: Guid(11d3946b8d6b6c34198a52f9eef48b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 10th/Scripts using Guid(11d3946b8d6b6c34198a52f9eef48b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaf2a71ab15a154bf98479007ee27ef') in 0.004405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Class 10th/Scripts/WeaponManager.cs
-  artifactKey: Guid(4282c0a4b214992419495bd75442b075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 10th/Scripts/WeaponManager.cs using Guid(4282c0a4b214992419495bd75442b075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95119012745070dcf61651f03f3a066') in 0.000817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.137 seconds
-Refreshing native plugins compatible for Editor in 20.13 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.262 seconds
-Domain Reload Profiling: 4392ms
-	BeginReloadAssembly (368ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (606ms)
-		LoadAssemblies (818ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (30ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (3263ms)
+	FinalizeReload (1146ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
+		SetupLoadedEditorAssemblies (908ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (357ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (15ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 6.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (31.6 KB). Loaded Objects now: 3605.
-Memory consumption went from 128.4 MB to 128.3 MB.
-Total: 2.992200 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.215500 ms MarkObjects: 2.474900 ms  DeleteObjects: 0.049600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 164.091444 seconds.
-  path: Assets/Class 10th/Prefabs/BulletLite_02.prefab
-  artifactKey: Guid(9c3cddd6060b7cc4eadfb9cefcf6e7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 10th/Prefabs/BulletLite_02.prefab using Guid(9c3cddd6060b7cc4eadfb9cefcf6e7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d3dd523d21cb51718c8a15328c10cf') in 0.265717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 10th/Prefabs/Rifle.prefab
-  artifactKey: Guid(260ff1508afea5241b6511d8fbe92201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 10th/Prefabs/Rifle.prefab using Guid(260ff1508afea5241b6511d8fbe92201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290a950bc422edc72f5f701633680071') in 0.046469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 49
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Class 10th/Prefabs/Knife.prefab
-  artifactKey: Guid(c1ab9abedc9d80f4a9109fe99b4ea8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 10th/Prefabs/Knife.prefab using Guid(c1ab9abedc9d80f4a9109fe99b4ea8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41ab77cb3167b04347d003252ca3b77') in 0.032618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 11.436 seconds
-Refreshing native plugins compatible for Editor in 4.95 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.488 seconds
-Domain Reload Profiling: 13920ms
-	BeginReloadAssembly (453ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (152ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (10878ms)
-		LoadAssemblies (10979ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (47ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (2488ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (447ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (311ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 5.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3131 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (31.5 KB). Loaded Objects now: 3616.
-Memory consumption went from 134.8 MB to 134.7 MB.
-Total: 7.187400 ms (FindLiveObjects: 0.302300 ms CreateObjectMapping: 0.300800 ms MarkObjects: 6.466600 ms  DeleteObjects: 0.116300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.845 seconds
-Refreshing native plugins compatible for Editor in 4.40 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.612 seconds
-Domain Reload Profiling: 2445ms
-	BeginReloadAssembly (253ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (97ms)
-	LoadAllAssembliesAndSetupDomain (392ms)
-		LoadAssemblies (543ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1612ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (569ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (393ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (33ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (750ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (30ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 7.29 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (41ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 19.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (31.6 KB). Loaded Objects now: 3619.
-Memory consumption went from 136.9 MB to 136.9 MB.
-Total: 19.120400 ms (FindLiveObjects: 5.982600 ms CreateObjectMapping: 0.248500 ms MarkObjects: 12.835500 ms  DeleteObjects: 0.052900 ms)
+Unloading 3139 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (57.3 KB). Loaded Objects now: 3602.
+Memory consumption went from 127.6 MB to 127.6 MB.
+Total: 6.135900 ms (FindLiveObjects: 1.825700 ms CreateObjectMapping: 0.818700 ms MarkObjects: 3.384100 ms  DeleteObjects: 0.106100 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -402,194 +176,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5049.771911 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Ascending Mystery 1.wav
-  artifactKey: Guid(c4ba6436bdf9d134894c132824def13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Ascending Mystery 1.wav using Guid(c4ba6436bdf9d134894c132824def13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f60a2bd984643b3dc62c0c92be2432') in 0.769204 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Cosmic Reveal.wav
-  artifactKey: Guid(6996c6a6c942c7d4d9f2fb5ab5163fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Cosmic Reveal.wav using Guid(6996c6a6c942c7d4d9f2fb5ab5163fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a7c8dbfacbc1ee08fae3ff691103e8') in 0.036915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Sci Fi Stinger 4.wav
-  artifactKey: Guid(146d4b19f95fe6d40832414952b4ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Sci Fi Stinger 4.wav using Guid(146d4b19f95fe6d40832414952b4ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb9eafe658f137b44ce36def9194dc8') in 0.015882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Harp Money 1.wav
-  artifactKey: Guid(c58a6e6d4ceb56e4882a7d60561a7afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Harp Money 1.wav using Guid(c58a6e6d4ceb56e4882a7d60561a7afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e3992c1356e63081dd803fce4326d4') in 0.018611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.002692 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Coin Bag Reward.wav
-  artifactKey: Guid(2a71d8e8ea428e0409d3df636b9f0192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Coin Bag Reward.wav using Guid(2a71d8e8ea428e0409d3df636b9f0192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f73e0787de51dbf92d0d21d66efecbe') in 0.032137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Mellow Hint 2.wav
-  artifactKey: Guid(2999a8c2c936b614989c3aa5265eac71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Mellow Hint 2.wav using Guid(2999a8c2c936b614989c3aa5265eac71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94dd97a52c954d9cbf990c141eef6af7') in 0.017915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Discovery 1.wav
-  artifactKey: Guid(67583b1df87740e41b2542fe351fd91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Discovery 1.wav using Guid(67583b1df87740e41b2542fe351fd91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8ed221aa03434cb24ca6efee9b8c4e') in 0.020070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Brightest Star 3.wav
-  artifactKey: Guid(973cbfce50fc9634b8c2729624d4cc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Brightest Star 3.wav using Guid(973cbfce50fc9634b8c2729624d4cc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2b9c50e98850fe0f5e1a1b4d1eab05') in 0.021405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Solo Shimmer 2.wav
-  artifactKey: Guid(e7d5139a2d2df3f40b2fd91b5c4a0217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Solo Shimmer 2.wav using Guid(e7d5139a2d2df3f40b2fd91b5c4a0217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4bc63d54baeafa4ca61debfe08943d') in 0.017221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Harp 4.wav
-  artifactKey: Guid(a1c48dd39207ece46a29b8796640661e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Harp 4.wav using Guid(a1c48dd39207ece46a29b8796640661e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190a8887458a9319d2cd82273f182e0d') in 0.037972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Magic Score 8.wav
-  artifactKey: Guid(b7b21f9a60172844dbf194c6b25f40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Magic Score 8.wav using Guid(b7b21f9a60172844dbf194c6b25f40dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc684eddc29566eaae853aa5642d4e9') in 0.100155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Unlocked Secret.wav
-  artifactKey: Guid(a65e44e8c694a3a4891eef0db109e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Unlocked Secret.wav using Guid(a65e44e8c694a3a4891eef0db109e331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abf2822ee13329c60637ba02a490e3c') in 0.015259 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Magic Score 9.wav
-  artifactKey: Guid(46e7fc2590c4ae64fb8c79606698b98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Magic Score 9.wav using Guid(46e7fc2590c4ae64fb8c79606698b98d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45daf155b5553d84c8f37609eee8943e') in 0.016155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Retro Star Descending 3.wav
-  artifactKey: Guid(16d0788660e724f44ae05e641af1b222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Retro Star Descending 3.wav using Guid(16d0788660e724f44ae05e641af1b222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1e5fd0885318d511c82dd1e409aff6') in 0.018044 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Score Point 2.wav
-  artifactKey: Guid(28a7e67ca249e874887b4c601e4f5e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Score Point 2.wav using Guid(28a7e67ca249e874887b4c601e4f5e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e67d9eddf86071c6f4f76490edc410') in 0.015881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Checkpoint 2.wav
+  Time since last request: 1211511.263115 seconds.
+  path: Assets/Class 11th/HintsStarsLite/Analyzer Sound.wav
   artifactKey: Guid(f64ab1f9953f79344995a101decf9830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Checkpoint 2.wav using Guid(f64ab1f9953f79344995a101decf9830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ef9a94ba709dc0dd3a7ac97b7cfb06') in 0.014658 seconds
+Start importing Assets/Class 11th/HintsStarsLite/Analyzer Sound.wav using Guid(f64ab1f9953f79344995a101decf9830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90479c5012cf39805b4d720585f00e0c') in 0.262782 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Marimba 3 Notes Descend.wav
-  artifactKey: Guid(bf0938dc5667ff34aa2616789bb48a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Marimba 3 Notes Descend.wav using Guid(bf0938dc5667ff34aa2616789bb48a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2e4c679f57bb19d9dd1fc4c6bb21e8') in 0.016660 seconds
+  Time since last request: 656.785420 seconds.
+  path: Assets/Class 11th/80sComputerandGamingSetup/Textures/file-20180531-69508-1oenzpj.png
+  artifactKey: Guid(69fac814557ecba4e88b42e9c6383cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th/80sComputerandGamingSetup/Textures/file-20180531-69508-1oenzpj.png using Guid(69fac814557ecba4e88b42e9c6383cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b034ae38143f8921c024307e827414be') in 0.122120 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Notified 2.wav
-  artifactKey: Guid(568470e29bef88c4aaa027db357be957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Notified 2.wav using Guid(568470e29bef88c4aaa027db357be957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1e4cfd5e814271d14ecec37d39f8b6') in 0.014387 seconds
+  Time since last request: 0.000227 seconds.
+  path: Assets/Class 11th/80sComputerandGamingSetup/Textures/Tech_PlasticBase_height.png
+  artifactKey: Guid(0179198909be73f428c59692c94b9a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th/80sComputerandGamingSetup/Textures/Tech_PlasticBase_height.png using Guid(0179198909be73f428c59692c94b9a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd877ab53a451507de6d487a4309eaf63') in 0.059397 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Bell Star 2.wav
-  artifactKey: Guid(d6945231be24c7240a281458fc849e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Bell Star 2.wav using Guid(d6945231be24c7240a281458fc849e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd215f3343791e808fdc76dc202179d1f') in 0.014579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Magic Score 5.wav
-  artifactKey: Guid(668620113e9d6dc4483ba3d8dbae9fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Magic Score 5.wav using Guid(668620113e9d6dc4483ba3d8dbae9fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3385e214644bba7ebe546020a8a689c') in 0.017525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Mysterious Chapter.wav
-  artifactKey: Guid(76adc3bada8ddff4bbd042635fed2f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Mysterious Chapter.wav using Guid(76adc3bada8ddff4bbd042635fed2f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014b3e807ad7a5fc32fdff13ec34da88') in 0.016189 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Shimmery Reward 5.wav
-  artifactKey: Guid(6e7f23ef945c235438595e89d6332d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Shimmery Reward 5.wav using Guid(6e7f23ef945c235438595e89d6332d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667ee5ead0935c837aa1144347412be2') in 0.021188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Retro Star 2.wav
-  artifactKey: Guid(1be2fcc16ab0da84f99ba7c633037620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Retro Star 2.wav using Guid(1be2fcc16ab0da84f99ba7c633037620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b53ea9ff077dd5556f46489acfa756f') in 0.016799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Class 11th/HintsStarsLite/Positive Vibes Coin.wav
-  artifactKey: Guid(b3b1ca576c2899b40befb38abb0775fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Class 11th/HintsStarsLite/Positive Vibes Coin.wav using Guid(b3b1ca576c2899b40befb38abb0775fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff469bf811a097affec5340943b1f2b') in 0.020893 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class 11th/80sComputerandGamingSetup/Textures/Tech_PlasticBase_normal.png
+  artifactKey: Guid(f4b9355d4d0551141a9fac7afa3df095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class 11th/80sComputerandGamingSetup/Textures/Tech_PlasticBase_normal.png using Guid(f4b9355d4d0551141a9fac7afa3df095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330921f2b2b27ec133304b27b1eefc7f') in 0.087470 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
