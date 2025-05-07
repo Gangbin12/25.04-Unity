@@ -163,7 +163,7 @@ Transform:
   m_GameObject: {fileID: 1517874777}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.67045677, y: -0.5361983, z: 3.6571424}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -516,7 +516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 5
   audioClip: {fileID: 8300000, guid: d296adf47dd0a514fbd36b5ff7df9f9c, type: 3}
-  audioManager: {fileID: 0}
+  audioManager: {fileID: 1517874778}
 --- !u!1 &1774222523
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,7 +690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time: 5
   audioClip: {fileID: 8300000, guid: d6945231be24c7240a281458fc849e1f, type: 3}
-  audioManager: {fileID: 0}
+  audioManager: {fileID: 1517874778}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
